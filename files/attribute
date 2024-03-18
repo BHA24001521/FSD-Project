@@ -1,0 +1,29 @@
+The following attributes in HTML are:
+id: Specifies a unique id for an HTML element.
+class: Specifies one or more class names for an HTML element (used for styling with CSS).
+style: Specifies inline CSS styles for an HTML element.
+title: Specifies extra information about an element (displayed as a tooltip).
+href: Specifies the URL of a link.
+src: Specifies the URL of an image or other media.
+alt: Specifies an alternate text for an image, if the image cannot be displayed.
+target: Specifies where to open the linked document when clicked.
+rel: Specifies the relationship between the current document and the linked document.
+type: Specifies the MIME type of a linked document.
+name: Specifies the name of an element (used for form elements, scripts, etc.).
+value: Specifies the value of an element (used for form elements).
+disabled: Specifies that an element should be disabled.
+readonly: Specifies that an input field is read-only.
+checked: Specifies that an input element should be pre-selected (for checkboxes and radio buttons).
+required: Specifies that an input field must be filled out before submitting the form.
+placeholder: Specifies a short hint that describes the expected value of an input field.
+autocomplete: Specifies whether an input field should have autocomplete enabled or disabled.
+maxlength: Specifies the maximum length of an input field.
+minlength: Specifies the minimum length of an input field.
+pattern: Specifies a regular expression pattern that an input field's value must match.
+title: Specifies extra information about an element (displayed as a tooltip).
+contenteditable: Specifies whether the content of an element is editable.
+lang: Specifies the language of the content.
+dir: Specifies the text direction of the content.
+draggable: Specifies whether an element is draggable.
+hidden: Specifies that an element is hidden.
+data-*: Custom data attributes used for storing custom data private to the page or application.
