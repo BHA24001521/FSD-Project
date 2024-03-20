@@ -1,0 +1,42 @@
+
+ Here's a list of some common JavaScript functions along with brief explanations of what they do:
+
+alert(message): Displays a dialog box with a specified message and an OK button.
+
+prompt(message, default): Displays a dialog box with a specified message and an input field where the user can enter data.
+
+confirm(message): Displays a dialog box with a specified message and OK and Cancel buttons. Returns true if the user clicks OK and false if the user clicks Cancel.
+
+console.log(message): Outputs a message to the web console. Useful for debugging and logging information during development.
+
+document.getElementById(id): Retrieves an HTML element from the document by its id attribute.
+
+document.querySelector(selector): Retrieves the first HTML element from the document that matches a specified CSS selector.
+
+addEventListener(event, function): Adds an event listener to an HTML element, allowing you to run a function when a specified event occurs.
+
+setTimeout(function, milliseconds): Executes a function after a specified number of milliseconds.
+
+setInterval(function, milliseconds): Executes a function repeatedly, with a fixed time delay between each execution.
+
+Math.random(): Generates a random number between 0 (inclusive) and 1 (exclusive).
+
+Math.floor(number): Rounds a number down to the nearest integer.
+
+Math.ceil(number): Rounds a number up to the nearest integer.
+
+Math.round(number): Rounds a number to the nearest integer.
+
+String.fromCharCode(unicode): Returns a string created from the specified sequence of Unicode values.
+
+Array.isArray(array): Returns true if the specified value is an array; otherwise, returns false.
+
+Array.prototype.push(element): Adds one or more elements to the end of an array and returns the new length of the array.
+
+Array.prototype.pop(): Removes the last element from an array and returns that element.
+
+Array.prototype.join(separator): Joins all elements of an array into a string, separated by the specified separator.
+
+Array.prototype.slice(start, end): Extracts a section of an array and returns a new array.
+
+Array.prototype.forEach(function): Calls a function once for each element in an array.
