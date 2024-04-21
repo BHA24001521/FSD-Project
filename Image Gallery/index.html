@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+
+        div img {
+            width: 400px;
+            height: 300px;
+            border: 2px solid #ff3d0036;
+            border-radius: 13px;
+            box-shadow: 4px 7px 7px 0px #00000042;
+            cursor: pointer;
+            margin: 10px;
+            transition: 400ms;
+
+        }
+
+        div img:hover {
+            filter: grayscale();
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="p1.jpg" alt="blank">
+        <img src="p2.jpg" alt="blank">
+        <img src="p3.jpg" alt="blank">
+        <img src="p4.jpg" alt="blank">
+    </div>
+    <div>
+        <img src="p5.jpg" alt="blank">
+        <img src="p6.jpg" alt="blank">
+        <img src="p7.jpg" alt="blank">
+        <img src="p8.jpg" alt="blank">
+    </div>
+</body>
+
+</html>
